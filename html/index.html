@@ -1,0 +1,677 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous"/>
+		<link href="https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@500&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Archivo+Narrow&family=Sansita+Swashed:wght@700&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Archivo+Narrow&family=Sansita+Swashed:wght@700&display=swap" rel="stylesheet">
+		<script>
+			function barOpener() {
+				var barBtn = document.getElementById('links');
+				barBtn.style.width = '100%';
+			};
+			function barCloser() {
+				var barBtn = document.getElementById('links');
+				var barClosre = document.getElementById('closeBar');
+				barBtn.style.width = '0%';			
+			};
+		</script>
+		<title>Lamsa</title>
+	</head>
+	<body>
+		<header id="header">
+			<div class="nav-bar">
+				<div class="nav-bar-left">
+					<div class="Logo">
+						<span class="Logo-icon"><i class="fas fa-feather-alt"></i></span>
+					</div>
+					<h1><a href="index.html">Lamsa</a></h1>
+				</div>
+				<div class="nav-bar-right">
+					<div class="nav-bar-right-spn1">
+						<span id="openBar" onclick="barOpener()"> &#9776; </span>
+					</div>
+					<div id="links" class="vermeiden-list">
+						<span id="closeBar" onclick="barCloser()"> &#9932; </span>
+						<ul>
+							<li><i class="fas fa-home i"></i><a href="index.html">Home</a></li>
+							<li><i class="fas fa-user-plus i"></i><a href="sign-up.html">Register</a></li> 
+							<li><i class="fas fa-sign-out-alt i"></i><a href="sign-in.html">Sign in</a></li>
+							<li><i class="fas fa-images i"></i><a href="upload-photos.html">upload photo</a></li>
+							<li><i class="fas fa-angle-double-right i"></i><a href="about.html">about Lamsa</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="header">
+				<div class="header-pic">
+					<!-- background image -->
+					<img src="https://i.ibb.co/LSMZYRx/background.jpg" alt="background-image">
+				</div>
+				<div class="content-on-background-pic">
+					<!-- header of the website -->
+					<h2>Welcome to Lamsa</h2>
+					<p>my place of sharing pictures that I take on the go</p>
+					<p>hope you enjoy your journy around here, to know better you please visit</p>
+					<a class="header-btn" href="about.html">about Lamsa</a>
+				</div>
+			</div>
+		</header>
+		<main>
+			<div id="container">
+				<div class="home-page">
+					<h2>Hi there and welcome to Lamsa</h2>
+					<p>After scrolling through my photos you can see my <a href="about.html">about</a> page to see the processing of my website and all tests needed for the final project.<br>
+					<br>Thank you for coming by!</p>
+				</div>
+				<div class="gallery">
+					<div class="gallery-item">
+						<div>
+							<img src="https://i.ibb.co/RhLMjH3/9.jpg" alt="9">
+						</div>
+						<div class="gallery-bar">
+							<ul>
+								<li><i class="far fa-heart"></i>like</li>
+								<li><i class="fas fa-draw-polygon"></i>share</li>
+								<li><i class="far fa-comment"></i>comment</li>
+							</ul>
+						</div>
+					</div>
+					<div class="gallery-item">
+						<div>
+							<img src="https://i.ibb.co/bHG4Y2S/7.jpg" alt="7">
+						</div>
+						<div class="gallery-bar">
+							<ul>
+								<li><i class="far fa-heart"></i>like</li>
+								<li><i class="fas fa-draw-polygon"></i>share</li>
+								<li><i class="far fa-comment"></i>comment</li>
+							</ul>
+						</div>
+					</div>
+					<div class="gallery-item">
+						<div>
+							<img src="https://i.ibb.co/BnfZHvQ/17.jpg" alt="17">
+						</div>
+						<div class="gallery-bar">
+							<ul>
+								<li><i class="far fa-heart"></i>like</li>
+								<li><i class="fas fa-draw-polygon"></i>share</li>
+								<li><i class="far fa-comment"></i>comment</li>
+							</ul>
+						</div>
+					</div>
+					<div class="gallery-item">
+						<div>
+							<img src="https://i.ibb.co/hWZvYQv/1.jpg" alt="1">
+						</div>
+						<div class="gallery-bar">
+							<ul>
+								<li><i class="far fa-heart"></i>like</li>
+								<li><i class="fas fa-draw-polygon"></i>share</li>
+								<li><i class="far fa-comment"></i>comment</li>
+							</ul>
+						</div>
+					</div>
+					<div class="gallery-item">
+						<div>
+							<img src="https://i.ibb.co/X2vNf3j/3.jpg" alt="3">
+						</div>
+						<div class="gallery-bar">
+							<ul>
+								<li><i class="far fa-heart"></i>like</li>
+								<li><i class="fas fa-draw-polygon"></i>share</li>
+								<li><i class="far fa-comment"></i>comment</li>
+							</ul>
+						</div>
+					</div>
+					<div class="gallery-item">
+						<div>
+							<img src="https://i.ibb.co/Lp0xQvV/4.jpg" alt="4">
+						</div>
+						<div class="gallery-bar">
+							<ul>
+								<li><i class="far fa-heart"></i>like</li>
+								<li><i class="fas fa-draw-polygon"></i>share</li>
+								<li><i class="far fa-comment"></i>comment</li>
+							</ul>
+						</div>
+					</div>
+					<div class="gallery-item">
+						<div>
+							<img src="https://i.ibb.co/mFjxQMK/5.jpg" alt="5">
+						</div>
+						<div class="gallery-bar">
+							<ul>
+								<li><i class="far fa-heart"></i>like</li>
+								<li><i class="fas fa-draw-polygon"></i>share</li>
+								<li><i class="far fa-comment"></i>comment</li>
+							</ul>
+						</div>
+					</div>
+					<div class="gallery-item">
+						<div>
+							<img src="https://i.ibb.co/bdS3t66/6.jpg" alt="6">
+						</div>
+						<div class="gallery-bar">
+							<ul>
+								<li><i class="far fa-heart"></i>like</li>
+								<li><i class="fas fa-draw-polygon"></i>share</li>
+								<li><i class="far fa-comment"></i>comment</li>
+							</ul>
+						</div>
+					</div>
+					<div class="gallery-item">
+						<div>
+							<img src="https://i.ibb.co/yW5wT1C/8.jpg" alt="8">
+						</div>
+						<div class="gallery-bar">
+							<ul>
+								<li><i class="far fa-heart"></i>like</li>
+								<li><i class="fas fa-draw-polygon"></i>share</li>
+								<li><i class="far fa-comment"></i>comment</li>
+							</ul>
+						</div>
+					</div>
+					<div class="gallery-item">
+						<div>
+							<img src="https://i.ibb.co/qR9hH93/10.jpg" alt="10">
+						</div>
+						<div class="gallery-bar">
+							<ul>
+								<li><i class="far fa-heart"></i>like</li>
+								<li><i class="fas fa-draw-polygon"></i>share</li>
+								<li><i class="far fa-comment"></i>comment</li>
+							</ul>
+						</div>
+					</div>
+					<!-- this is the begening-->
+					<div class="gallery-item">
+						<div>
+							<img src="https://i.ibb.co/Nj1DTcq/89.jpg" alt="89">
+						</div>
+						<div class="gallery-bar">
+							<ul>
+								<li><i class="far fa-heart"></i>like</li>
+								<li><i class="fas fa-draw-polygon"></i>share</li>
+								<li><i class="far fa-comment"></i>comment</li>
+							</ul>
+						</div>
+					</div>
+
+					<div class="gallery-item">
+						<div>
+							<img src="https://i.ibb.co/wYpzpsQ/09.jpg" alt="09">
+						</div>
+						<div class="gallery-bar">
+							<ul>
+								<li><i class="far fa-heart"></i>like</li>
+								<li><i class="fas fa-draw-polygon"></i>share</li>
+								<li><i class="far fa-comment"></i>comment</li>
+							</ul>
+						</div>
+					</div>
+
+					<div class="gallery-item">
+						<div>
+							<img src="https://i.ibb.co/ySTw64x/10.jpg" alt="10">
+						</div>
+						<div class="gallery-bar">
+							<ul>
+								<li><i class="far fa-heart"></i>like</li>
+								<li><i class="fas fa-draw-polygon"></i>share</li>
+								<li><i class="far fa-comment"></i>comment</li>
+							</ul>
+						</div>
+					</div>
+
+					<div class="gallery-item">
+						<div>
+							<img src="https://i.ibb.co/VgXngzj/11.jpg" alt="11">
+						</div>
+						<div class="gallery-bar">
+							<ul>
+								<li><i class="far fa-heart"></i>like</li>
+								<li><i class="fas fa-draw-polygon"></i>share</li>
+								<li><i class="far fa-comment"></i>comment</li>
+							</ul>
+						</div>
+					</div>
+
+					<div class="gallery-item">
+						<div>
+							<img src="https://i.ibb.co/kB7p1q2/21.jpg" alt="21">
+						</div>
+						<div class="gallery-bar">
+							<ul>
+								<li><i class="far fa-heart"></i>like</li>
+								<li><i class="fas fa-draw-polygon"></i>share</li>
+								<li><i class="far fa-comment"></i>comment</li>
+							</ul>
+						</div>
+					</div>
+
+					<div class="gallery-item">
+						<div>
+							<img src="https://i.ibb.co/k0mgjNY/22.jpg" alt="22">
+						</div>
+						<div class="gallery-bar">
+							<ul>
+								<li><i class="far fa-heart"></i>like</li>
+								<li><i class="fas fa-draw-polygon"></i>share</li>
+								<li><i class="far fa-comment"></i>comment</li>
+							</ul>
+						</div>
+					</div>
+					<div class="gallery-item">
+						<div>
+							<img src="https://i.ibb.co/rGmymv5/44.jpg" alt="44">
+						</div>
+						<div class="gallery-bar">
+							<ul>
+								<li><i class="far fa-heart"></i>like</li>
+								<li><i class="fas fa-draw-polygon"></i>share</li>
+								<li><i class="far fa-comment"></i>comment</li>
+							</ul>
+						</div>
+					</div>
+
+					<div class="gallery-item">
+						<div>
+							<img src="https://i.ibb.co/x2H8dgM/48.jpg" alt="48">
+						</div>
+						<div class="gallery-bar">
+							<ul>
+								<li><i class="far fa-heart"></i>like</li>
+								<li><i class="fas fa-draw-polygon"></i>share</li>
+								<li><i class="far fa-comment"></i>comment</li>
+							</ul>
+						</div>
+					</div>
+
+					<div class="gallery-item">
+						<div>
+							<img src="https://i.ibb.co/9tGWsDb/49.jpg" alt="49">
+						</div>
+						<div class="gallery-bar">
+							<ul>
+								<li><i class="far fa-heart"></i>like</li>
+								<li><i class="fas fa-draw-polygon"></i>share</li>
+								<li><i class="far fa-comment"></i>comment</li>
+							</ul>
+						</div>
+					</div>
+
+					<div class="gallery-item">
+						<div>
+							<img src="https://i.ibb.co/vjzcxcp/52.jpg" alt="52">
+						</div>
+						<div class="gallery-bar">
+							<ul>
+								<li><i class="far fa-heart"></i>like</li>
+								<li><i class="fas fa-draw-polygon"></i>share</li>
+								<li><i class="far fa-comment"></i>comment</li>
+							</ul>
+						</div>
+					</div>
+
+					<div class="gallery-item">
+						<div>
+							<img src="https://i.ibb.co/jD4cTQh/55.jpg" alt="55">
+						</div>
+						<div class="gallery-bar">
+							<ul>
+								<li><i class="far fa-heart"></i>like</li>
+								<li><i class="fas fa-draw-polygon"></i>share</li>
+								<li><i class="far fa-comment"></i>comment</li>
+							</ul>
+						</div>
+					</div>
+
+					<!-- this is the end -->
+					<div class="gallery-item">
+						<div>
+							<img src="https://i.ibb.co/gVd6B6X/11.jpg" alt="11">
+						</div>
+						<div class="gallery-bar">
+							<ul>
+								<li><i class="far fa-heart"></i>like</li>
+								<li><i class="fas fa-draw-polygon"></i>share</li>
+								<li><i class="far fa-comment"></i>comment</li>
+							</ul>
+						</div>
+					</div>
+					<div class="gallery-item">
+						<div>
+							<img src="https://i.ibb.co/b68Hp9B/12.jpg" alt="12">
+						</div>
+						<div class="gallery-bar">
+							<ul>
+								<li><i class="far fa-heart"></i>like</li>
+								<li><i class="fas fa-draw-polygon"></i>share</li>
+								<li><i class="far fa-comment"></i>comment</li>
+							</ul>
+						</div>
+					</div>
+					<div class="gallery-item">
+						<div>
+							<img src="https://i.ibb.co/9ThGPSR/13.jpg" alt="13">
+						</div>
+						<div class="gallery-bar">
+							<ul>
+								<li><i class="far fa-heart"></i>like</li>
+								<li><i class="fas fa-draw-polygon"></i>share</li>
+								<li><i class="far fa-comment"></i>comment</li>
+							</ul>
+						</div>
+					</div>
+					<div class="gallery-item">
+						<div>
+							<img src="https://i.ibb.co/1mfPmwg/14.jpg" alt="14">
+						</div>
+						<div class="gallery-bar">
+							<ul>
+								<li><i class="far fa-heart"></i>like</li>
+								<li><i class="fas fa-draw-polygon"></i>share</li>
+								<li><i class="far fa-comment"></i>comment</li>
+							</ul>
+						</div>
+					</div>
+					<div class="gallery-item">
+						<div>
+							<img src="https://i.ibb.co/LJcM0Dj/15.jpg" alt="15">
+						</div>
+						<div class="gallery-bar">
+							<ul>
+								<li><i class="far fa-heart"></i>like</li>
+								<li><i class="fas fa-draw-polygon"></i>share</li>
+								<li><i class="far fa-comment"></i>comment</li>
+							</ul>
+						</div>
+					</div>
+					<div class="gallery-item">
+						<div>
+							<img src="https://i.ibb.co/PwsQHzb/16.jpg" alt="16">
+						</div>
+						<div class="gallery-bar">
+							<ul>
+								<li><i class="far fa-heart"></i>like</li>
+								<li><i class="fas fa-draw-polygon"></i>share</li>
+								<li><i class="far fa-comment"></i>comment</li>
+							</ul>
+						</div>
+					</div>
+					<div class="gallery-item">
+						<div>
+							<img src="https://i.ibb.co/RN2Lwwj/18.jpg" alt="18">
+						</div>
+						<div class="gallery-bar">
+							<ul>
+								<li><i class="far fa-heart"></i>like</li>
+								<li><i class="fas fa-draw-polygon"></i>share</li>
+								<li><i class="far fa-comment"></i>comment</li>
+							</ul>
+						</div>
+					</div>
+					<div class="gallery-item">
+						<div>
+							<img src="https://i.ibb.co/W6C7LCH/19.jpg" alt="19">
+						</div>
+						<div class="gallery-bar">
+							<ul>
+								<li><i class="far fa-heart"></i>like</li>
+								<li><i class="fas fa-draw-polygon"></i>share</li>
+								<li><i class="far fa-comment"></i>comment</li>
+							</ul>
+						</div>
+					</div>
+					<div class="gallery-item">
+						<div>
+							<img src="https://i.ibb.co/ZLsh9XR/20.jpg" alt="20">
+						</div>
+						<div class="gallery-bar">
+							<ul>
+								<li><i class="far fa-heart"></i>like</li>
+								<li><i class="fas fa-draw-polygon"></i>share</li>
+								<li><i class="far fa-comment"></i>comment</li>
+							</ul>
+						</div>
+					</div>
+					<div class="gallery-item">
+						<div>
+							<img src="https://i.ibb.co/dkpsd39/22.jpg" alt="22">
+						</div>
+						<div class="gallery-bar">
+							<ul>
+								<li><i class="far fa-heart"></i>like</li>
+								<li><i class="fas fa-draw-polygon"></i>share</li>
+								<li><i class="far fa-comment"></i>comment</li>
+							</ul>
+						</div>
+					</div>
+					<div class="gallery-item">
+						<div>
+							<img src="https://i.ibb.co/9tV15TH/23.jpg" alt="23">
+						</div>
+						<div class="gallery-bar">
+							<ul>
+								<li><i class="far fa-heart"></i>like</li>
+								<li><i class="fas fa-draw-polygon"></i>share</li>
+								<li><i class="far fa-comment"></i>comment</li>
+							</ul>
+						</div>
+					</div>
+					<div class="gallery-item">
+						<div>
+							<img src="https://i.ibb.co/3hmjjmh/24.jpg" alt="24">
+						</div>
+						<div class="gallery-bar">
+							<ul>
+								<li><i class="far fa-heart"></i>like</li>
+								<li><i class="fas fa-draw-polygon"></i>share</li>
+								<li><i class="far fa-comment"></i>comment</li>
+							</ul>
+						</div>
+					</div>
+					<div class="gallery-item">
+						<div>
+							<img src="https://i.ibb.co/PDyT7Wq/25.jpg" alt="25">
+						</div>
+						<div class="gallery-bar">
+							<ul>
+								<li><i class="far fa-heart"></i>like</li>
+								<li><i class="fas fa-draw-polygon"></i>share</li>
+								<li><i class="far fa-comment"></i>comment</li>
+							</ul>
+						</div>
+					</div>
+					<div class="gallery-item">
+						<div>
+							<img src="https://i.ibb.co/GkrhzPz/26.jpg" alt="26">
+						</div>
+						<div class="gallery-bar">
+							<ul>
+								<li><i class="far fa-heart"></i>like</li>
+								<li><i class="fas fa-draw-polygon"></i>share</li>
+								<li><i class="far fa-comment"></i>comment</li>
+							</ul>
+						</div>
+					</div>
+					<div class="gallery-item">
+						<div>
+							<img src="https://i.ibb.co/Ch81Tt9/27.jpg" alt="27">
+						</div>
+						<div class="gallery-bar">
+							<ul>
+								<li><i class="far fa-heart"></i>like</li>
+								<li><i class="fas fa-draw-polygon"></i>share</li>
+								<li><i class="far fa-comment"></i>comment</li>
+							</ul>
+						</div>
+					</div>
+					<div class="gallery-item">
+						<div>
+							<img src="https://i.ibb.co/tDpT63g/28.jpg" alt="28">
+						</div>
+						<div class="gallery-bar">
+							<ul>
+								<li><i class="far fa-heart"></i>like</li>
+								<li><i class="fas fa-draw-polygon"></i>share</li>
+								<li><i class="far fa-comment"></i>comment</li>
+							</ul>
+						</div>
+					</div>
+					<div class="gallery-item">
+						<div>
+							<img src="https://i.ibb.co/2PK0GFz/29.jpg" alt="29">
+						</div>
+						<div class="gallery-bar">
+							<ul>
+								<li><i class="far fa-heart"></i>like</li>
+								<li><i class="fas fa-draw-polygon"></i>share</li>
+								<li><i class="far fa-comment"></i>comment</li>
+							</ul>
+						</div>
+					</div>
+					<div class="gallery-item">
+						<div>
+							<img src="https://i.ibb.co/2gg8q7f/32.jpg" alt="32">
+						</div>
+						<div class="gallery-bar">
+							<ul>
+								<li><i class="far fa-heart"></i>like</li>
+								<li><i class="fas fa-draw-polygon"></i>share</li>
+								<li><i class="far fa-comment"></i>comment</li>
+							</ul>
+						</div>
+					</div>
+					<div class="gallery-item">
+						<div>
+							<img src="https://i.ibb.co/0GB9YTB/33.jpg" alt="33">
+						</div>
+						<div class="gallery-bar">
+							<ul>
+								<li><i class="far fa-heart"></i>like</li>
+								<li><i class="fas fa-draw-polygon"></i>share</li>
+								<li><i class="far fa-comment"></i>comment</li>
+							</ul>
+						</div>
+					</div>
+					<div class="gallery-item">
+						<div>
+							<img src="https://i.ibb.co/FskT641/36.jpg" alt="36">
+						</div>
+						<div class="gallery-bar">
+							<ul>
+								<li><i class="far fa-heart"></i>like</li>
+								<li><i class="fas fa-draw-polygon"></i>share</li>
+								<li><i class="far fa-comment"></i>comment</li>
+							</ul>
+						</div>
+					</div>
+					<div class="gallery-item">
+						<div>
+							<img src="https://i.ibb.co/L8bWvTd/37.jpg" alt="37">
+						</div>
+						<div class="gallery-bar">
+							<ul>
+								<li><i class="far fa-heart"></i>like</li>
+								<li><i class="fas fa-draw-polygon"></i>share</li>
+								<li><i class="far fa-comment"></i>comment</li>
+							</ul>
+						</div>
+					</div>
+					<div class="gallery-item">
+						<div>
+							<img src="https://i.ibb.co/84XhdQ4/38.jpg" alt="38">
+						</div>
+						<div class="gallery-bar">
+							<ul>
+								<li><i class="far fa-heart"></i>like</li>
+								<li><i class="fas fa-draw-polygon"></i>share</li>
+								<li><i class="far fa-comment"></i>comment</li>
+							</ul>
+						</div>
+					</div>
+					<div class="gallery-item">
+						<div>
+							<img src="https://i.ibb.co/FmGNPjL/39.jpg" alt="39">
+						</div>
+						<div class="gallery-bar">
+							<ul>
+								<li><i class="far fa-heart"></i>like</li>
+								<li><i class="fas fa-draw-polygon"></i>share</li>
+								<li><i class="far fa-comment"></i>comment</li>
+							</ul>
+						</div>
+					</div>
+					<div class="gallery-item">
+						<div>
+							<img src="https://i.ibb.co/kyNTMj4/40.jpg" alt="40">
+						</div>
+						<div class="gallery-bar">
+							<ul>
+								<li><i class="far fa-heart"></i>like</li>
+								<li><i class="fas fa-draw-polygon"></i>share</li>
+								<li><i class="far fa-comment"></i>comment</li>
+							</ul>
+						</div>
+					</div>
+					<div class="gallery-item">
+						<div>
+							<img src="https://i.ibb.co/DwDyHnP/42.jpg" alt="42">
+						</div>
+						<div class="gallery-bar">
+							<ul>
+								<li><i class="far fa-heart"></i>like</li>
+								<li><i class="fas fa-draw-polygon"></i>share</li>
+								<li><i class="far fa-comment"></i>comment</li>
+							</ul>
+						</div>
+					</div>
+					<div class="gallery-item">
+						<div>
+							<img src="https://i.ibb.co/DDW3Wfr/43.jpg" alt="43">
+						</div>
+						<div class="gallery-bar">
+							<ul>
+								<li><i class="far fa-heart"></i>like</li>
+								<li><i class="fas fa-draw-polygon"></i>share</li>
+								<li><i class="far fa-comment"></i>comment</li>
+							</ul>
+						</div>
+					</div>
+					<div class="gallery-item">
+						<div>
+							<img src="https://i.ibb.co/7j3YCtb/44.jpg" alt="44">
+						</div>
+						<div class="gallery-bar">
+							<ul>
+								<li><i class="far fa-heart"></i>like</li>
+								<li><i class="fas fa-draw-polygon"></i>share</li>
+								<li><i class="far fa-comment"></i>comment</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
+		<footer>
+				<h3>Links</h3>
+				<div class="footer-ul">
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="upload-photos.html">Upload photo</a></li>
+						<li><a href="sign-up.html">Register</a></li>
+						<li><a href="about.html">About Lamsa</a></li>
+					</ul>
+			    </div>
+			<div class="footer-copy">
+				<p>This website is the final project of Webdesign for everybody course on <a href="https://www.coursera.org/">Coursera</a>. Lamsa 2020</p>
+			</div>
+		</footer>
+	</body>
+</html>

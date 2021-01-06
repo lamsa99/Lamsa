@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous"/>
+		<link href="https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@500&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Archivo+Narrow&family=Sansita+Swashed:wght@700&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Archivo+Narrow&family=Sansita+Swashed:wght@700&display=swap" rel="stylesheet">
+		<script>
+			function barOpener() {
+				var barBtn = document.getElementById('links');
+				barBtn.style.width = '100%';
+			};
+			function barCloser() {
+				var barBtn = document.getElementById('links');
+				var barClosre = document.getElementById('closeBar');
+				barBtn.style.width = '0%';			
+			};
+		</script>
+		<title>Upload Photo</title>
+	</head>
+	<body>
+		<header>
+			<div class="nav-bar">
+				<div class="nav-bar-left">
+					<div class="Logo">
+						<span class="Logo-icon"><i class="fas fa-feather-alt"></i></span>
+					</div>
+					<h1><a href="index.html">Lamsa</a></h1>
+				</div>
+				<div class="nav-bar-right">
+					<div class="nav-bar-right-spn1">
+						<span id="openBar" onclick="barOpener()">&#9776;</span>
+					</div>
+					<div id="links" class="vermeiden-list">
+						<span id="closeBar" onclick="barCloser()">&#9932;</span>
+						<ul>
+							<li><i class="fas fa-home i"></i><a href="index.html">Home</a></li>
+							<li><i class="fas fa-user-plus i"></i><a href="sign-up.html">Register</a></li> 
+							<li><i class="fas fa-sign-out-alt i"></i><a href="sign-in.html">Sign in</a></li>
+							<li><i class="fas fa-images i"></i><a href="upload-photos.html">upload photo</a></li>
+							<li><i class="fas fa-angle-double-right i"></i><a href="about.html">about Lamsa</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</header>
+		<main>
+			<div class="form">
+				<div class="form-head">
+					<h2>Add Photo</h2>
+				</div>
+				<div class="form-block">
+					<form>
+						<label for="photo-heading">Title:</label>
+							<input class="form-text" type="text" id ="photo-heading" title="please type a title" required>
+							<br>
+						<label for="photo-url">Photo's URL:</label>
+							<input class="form-text" type="text" id ="photo-url" title="please type photo's url" required>
+							<br>
+						<label>Description:</label>
+							<br>
+							<textarea class="form-text textarea"  id ="description" title="please type a few words to describe your photo" required>
+							</textarea>
+							<div class="submit">
+								<input type="submit">
+							</div>
+							<div class="caution">
+								<p>Please don't fill it. I mean nothing going to happen but still. It's just here for the show :)</p>
+							</div>
+						</form>
+					</div>
+				</div>
+			</main>
+		<footer>
+				<h3>Links</h3>
+				<div class="footer-ul">
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="upload-photos.html">Upload photo</a></li>
+						<li><a href="sign-up.html">Register</a></li>
+						<li><a href="about.html">About Lamsa</a></li>
+					</ul>
+			    </div>
+			<div class="footer-copy">
+				<p>This website is the final project of Webdesign for everybody course on <a href="https://www.coursera.org/">Coursera</a>. Lamsa 2020</p>
+			</div>
+		</footer>
+	</body>
+</html>
